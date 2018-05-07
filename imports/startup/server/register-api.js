@@ -12,7 +12,7 @@ type Query {
 `;
 
 const typeDefs = [testSchema, ResolutionsSchema];
-
+//hi
 const resolver = {
   Query: {
     hi() {
